@@ -78,7 +78,7 @@ const Carousel = () => {
                         className="w-full h-full overflow-hidden relative"
                     >
                         {/* img */}
-                        <img src={data[currentIndex].img} alt="background" className="w-full h-full object-cover" />
+                        <img src={data[currentIndex].img} alt="background" className="w-full h-full object-cover bg-zinc-800" />
                         {/* label */}
                         <div className="w-full h-full flex-1 absolute inset-0 flex items-end md:justify-start justify-center">
                             <div className="px-3 py-2 bg-black bg-opacity-70 h-fit text-white font-bold relative uppercase lg:inset-x-56 lg:mb-36 lg:w-[650px] lg:text-2xl md:inset-x-12 md:mb-16  md:w-[450px] md:text-lg w-72 mb-8 text-sm">
